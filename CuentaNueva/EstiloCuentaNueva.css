@@ -1,0 +1,162 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  margin: 0px auto;
+  width: 100%;
+  flex: 1;
+}
+
+footer {
+	margin: 0px auto;
+    width: 80%;
+	background-color: orange;
+	height: 25px;
+}
+
+nav div {
+	width: 20%;
+	background-color: blue;
+	float:left;
+}
+
+.content {
+	width: 1000px;
+	height: 600px;
+	background-color: #34495E;
+	border-radius: 4px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.titulo{
+	width: 900px;
+	height: 40px;
+	background-color: red;
+	margin-left: 50px;
+}
+
+.espacionombre{
+	width: 550px;
+	height: 60px;
+	background-color: green;
+	text-align: center;
+	margin-left: 250px;
+}
+
+.nombre{
+	width: 250px;
+	height: 50px;
+	text-align: left;
+	background-color: gray;
+	float: left;
+	margin-top: 5px;
+	margin-left: 25px;
+}
+.apellido{
+	width: 250px;
+	height: 50px;
+	text-align: left;
+	background-color: gray;
+	float: left;
+	margin-top: 5px;
+	margin-left: 0px;
+}
+.correo{
+	width: 400px;
+	height: 40px;
+	text-align: center;
+	background-color: green;
+	margin-left: 275px;
+	margin-top: -8px;
+}
+.espaciocontrasenias{
+	width: 450px;
+	height: 50px;
+	text-align: center;
+	background-color: green;
+	margin-left: 250px;
+}
+.contrasenia{
+	width: 200px;
+	height: 50px;
+	text-align: left;
+	background-color: gray;
+	float: left;
+	margin-left: 25px;
+}
+.confirmarcontra{
+	width: 200px;
+	height: 50px;
+	text-align: left;
+	background-color: gray;
+	float: left;
+}
+
+.paises{
+	width: 400px;
+	height: 50px;
+	text-align: center;
+	background-color: green;
+	margin-left: 275px;
+	margin-top: -8px;
+}
+.fecha{
+	width: 600px;
+	height: 50px;
+	text-align: center;
+	background-color: green;
+	margin-left: 200px;
+	margin-top: -8px;
+}
+.usrsexo{
+	width: 400px;
+	height: 50px;
+	text-align: center;
+	background-color: green;
+	margin-left: 275px;
+	margin-top: -8px;
+}
+.correoalterno{
+	width: 600px;
+	height: 70px;
+	text-align: center;
+	background-color: green;
+	margin-left: 200px;
+	margin-top: -8px;
+
+}
+.email{
+	width: 400px;
+	height: 50px;
+	text-align: center;
+	background-color: green;
+	margin-left: 75px;
+}
+.botones{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	background-color: green;
+	margin-left: 375px;
+	margin-top: 40px;
+}
+
+label{
+	display: block;
+	margin: .5em 0 0 0; 
+}
