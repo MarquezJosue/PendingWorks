@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="EstiloPendiente.css">
+	<title>Pending Works</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+        <nav>
+            <div>Logo</div>
+            <div>Perfil</div>
+        </nav>
+        <div class="usuario">
+            <div>Usuario</div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="carpetas"> 
+            <div>Carpetas</div>
+    	</div>
+        <div class="Datos">
+            <div class="Formulario">
+                <div class="titulo">
+                    <h1>Nuevo Pendiente</h1>
+                </div>
+                <form action="index.html" method="post">
+                    <div class="espaciopendiente">    
+                        <div class="pendiente">
+                            <label for="pendiente">Nombre</label>
+                            <input type="text" id="pendiente" name="pendiente" placeholder="Nombre"/>
+                        </div>
+                    </div>
+                    <div class="fecha">
+                        <label for="dia">Fecha Finalizacion</label><br>
+                        <input type="text" id="dia" name="dia" placeholder="Dia"/>
+                        <input type="text" id="mes" name="mes" placeholder="Mes"/>
+                        <input type="text" id="año" name="año" placeholder="Año"/>
+                    </div>
+                    <div class="descripcion">
+                        <label for="descripcion">Descripcion</label>
+                        <input type="text" id="descripcion" name="descripcion"/>
+                    </div>
+                    <div class="status">
+                        <label for="status">Estatus</label>
+                        <input name="status" type="radio" value="completa"/>Completa
+                        <input name="status" type="radio" value="completa"/>Completa
+                    </div>
+                    <div class="participantesdatos">
+                        <div class="participantes">
+                            <label for="participantes">Participantes</label>
+                            <input type="participantes" id="participantes" name="participantes"/>
+                        </div>
+                        <h3>Usuarios que participan en el pendiente</h3>
+                    </div>
+                    <div class="botones">
+                        <button type="submit">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">Footer</footer>
+</body>
+
+</html>
